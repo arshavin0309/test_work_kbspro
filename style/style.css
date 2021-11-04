@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #434343;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    padding: 15px;
+}
+
+.main_box {
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__link {
+    display: block;
+    min-width: 40px;
+    min-height: 40px;
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #434343;
+    border-radius: 10px;
+    color: #FFF;
+    background-repeat: no-repeat;
+}
+
+.green__header {
+    background-color: #42a62a;
+    background-repeat: no-repeat;
+}
+
+.link_1 {
+    padding-right: 60px;
+    background-image: url('../img/arrow.png');
+    background-position: 160px center;
+}
+
+.link_2 {
+    padding-left: 60px;
+    background-image: url('../img/user.png');
+    background-position: 25px center;
+}
+
+.link_3 {
+    padding-left: 65px;
+    background-image: url('../img/portfolio.png');
+    background-position: 25px center;
+}
+
+.link_4 {
+    background-image: url('../img/settings.png');
+    background-position: center center;
+}
+
+.link_5 {
+    background-image: url('../img/burger.png');
+    background-position: center center;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.main__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.heading {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+}
+
+.footer__link {
+    padding: 15px;
+    border: 3px solid #42a62a;
+    border-radius: 10px;
+    color: #434343;
+}
+
+.footer__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.green__footer {
+    background: #42a62a;
+    color: #FFF;
+}
+
+.body {
+    display: flex;
+    background: #f5f5f5;
+}
+
+.aside {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #434343;
+}
+
+.top__list {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.bottom__list {
+    margin-bottom: 30px;
+}
+
+.top__item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.bottom__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.top__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__box {
+    width: 100%;
+    height: 1165px;
+    overflow-x: auto;
+}
+
+.right__box {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.right__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.right__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.right__link {
+    display: block;
+    padding: 10px;
+    border: 1px solid #b5b5b5;
+    border-radius: 10px;
+    color: #434343;
+}
+
+.green__right {
+    border: 1px solid #42a62a;
+    background: #42a62a;
+    color: #FFF;
+}
+
+.table__box {
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+td {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.gray_tr {
+    background: #b5b5b5;
+    color: #fff;
+}
+
+.line_tr {
+    background: #f8f8f8;
+}
+
+.first_td {
+    width: 400px;
+}
+
+.number_td {
+    width: 90px;
+    text-align: right;
+}
+
+.gray_question {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 17px;
+    cursor: pointer;
+}
+
+.white_question {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 17px;
+    cursor: pointer;
+}
+
+.up_arrow {
+    background: url('../img/up\ arrow.png') no-repeat;
+    background-position: 20px center;
+}
+
+.down_arrow {
+    background: url('../img/down\ arrow.png') no-repeat;
+    background-position: 20px center;
+}
